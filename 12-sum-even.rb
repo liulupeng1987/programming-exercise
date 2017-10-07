@@ -5,6 +5,10 @@ total = 0
 
 while ( i <= 100 )
 
+  if i.to_i % 2 == 0
+    total = total + i
+  end
+
   # ....
 
   i+=1

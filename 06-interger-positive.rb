@@ -5,6 +5,19 @@ print "请输入一个整数，然后按 Enter: "
 x = gets
 
 # ....
+if x.to_i > 0
+  conclusion = "正数"
+elsif x.to_i < 0
+  conclusion = "负数"
+else
+  conclusion = "0"
+end
 
-puts "这个数是_____ (正数或零或负数)"
-puts "这个数是_____ (偶数或奇数)"
+if x.to_i % 2 == 0
+  conclusion2 = "偶数"
+else
+  conclusion2 = "奇数"
+end
+
+puts "这个数是#{conclusion}"
+puts "这个数是#{conclusion2}"

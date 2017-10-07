@@ -12,9 +12,21 @@ while (true)
   end
 end
 
+sum = 0
+i = arr.length
+j = 0
+while (j < i)
+  sum += arr[j]
+  j += 1
+end
+
+average = sum.to_f/i
+max = arr.sort.last
+min = arr.sort.first
+
 puts arr.to_s
 
-puts "总和是 _____"
-puts "平均是 _____"
-puts "最大值是 _____"
-puts "最小值是 _____"
+puts "总和是 #{sum}"
+puts "平均是 #{average}"
+puts "最大值是 #{max}"
+puts "最小值是 #{min}"

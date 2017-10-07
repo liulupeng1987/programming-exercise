@@ -1,4 +1,9 @@
 Buy book
 Go Shopping
 Walk
-Gogo
+buy ticket
+go home
+go to school
+eating
+sleeping
+playing ball
